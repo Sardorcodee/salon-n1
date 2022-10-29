@@ -441,57 +441,52 @@ footer#urta {
   .container {
     width: 1000px;
     color: red;
-
   }
-  header{
-    .bars{
+  header {
+    .bars {
       display: none;
     }
   }
 }
 @media (max-width: 1010px) {
-  
   .container {
     width: 710px;
     margin: 0;
-    padding: 1em;}
+    padding: 1em;
+  }
   header {
-    .container{
-      .nav-main{
+    .container {
+      .nav-main {
         gap: 2em;
-      }
-      
-    }
-    }
-    
-  
-  section#Landing {
-    
-    .container{
-    .ikkidanbir {
-      h1{
-        font-size: 2em;
-        width: 300px;
-      }
-      p{
-        width: 350px;
-      }
-    }
-    .flex {
-      flex-direction: column;
-    }
-    .btn-1 , .btn-2{
-      width: 200px;
-
-    }
-    .ikkidanbir {
-      img{
-        width: 25em;
-        margin-top: 10em;
-
       }
     }
   }
+
+  section#Landing {
+    .container {
+      .ikkidanbir {
+        h1 {
+          font-size: 2em;
+          width: 300px;
+        }
+        p {
+          width: 350px;
+        }
+      }
+      .flex {
+        flex-direction: column;
+      }
+      .btn-1,
+      .btn-2 {
+        width: 200px;
+      }
+      .ikkidanbir {
+        img {
+          width: 25em;
+          margin-top: 10em;
+        }
+      }
+    }
   }
   section#Rectangle {
     .container {
@@ -500,15 +495,14 @@ footer#urta {
       gap: 1em;
       .text {
         margin: 0;
-        h2{
+        h2 {
           width: 300px;
         }
-        p{
+        p {
           width: 300px;
         }
-        .btn-1{
+        .btn-1 {
           width: 200px;
-        
         }
       }
     }
@@ -517,12 +511,12 @@ footer#urta {
     .container {
       flex-direction: row;
       gap: 2em;
-      .ikkidanbir{
-        h2{
+      .ikkidanbir {
+        h2 {
           width: 200px;
           font-size: 2em;
         }
-        p{
+        p {
           width: 400px;
         }
       }
@@ -531,158 +525,148 @@ footer#urta {
   section#Rectangle2 {
     .container {
       padding: 2em 1em;
-      margin:  0 auto;
+      margin: 0 auto;
 
       .ramka {
-        img{
+        img {
           width: 100%;
         }
-          width: 100%;
+        width: 100%;
         flex-direction: column;
 
-
-
-       .ikkidanbir{
-        width: 100%;
-       }
+        .ikkidanbir {
+          width: 100%;
+        }
       }
     }
   }
-section#affilte{
-  background-size: 100em;
-}
-footer{
-  .container{
-    gap: 0;
-padding:2em 1em;
-    .ikkidanbir{
-      ul{
-       p{
-        width: 100%;
-       }
-       .btn-1{
-        padding: 0;
-        display: none;
-       }
-
-        
-      }
-    }
+  section#affilte {
+    background-size: 100em;
   }
-
-}
-footer#urta{
-  .container{
-    padding: 0 1em;
-    h2{
-      font-size: 2em;
-      width: 300px;
-    }
-  }
-
-}
-footer#past{
-     .container{
-      padding: 1em;
-      gap: 0em;
-      .flex{
-      gap: 1em;
-    }
-     }
-}
-
-
-}
-
-
-@media (max-width: 710px) {
-  .container {
-    width: 100%;
-  }
-  header{
-    .container{
-      gap: 15em;
-    .bars{
-      display: block;
-      a{
-        color: white;
-      }
-    }
-    .nav-main{
-      transition: all .6s;
-      text-align: center;
-      position: fixed;
-      width: 100%;
-      padding: 5em 0;
-      left: 0;
-      top: -100%;
-      background-color: black;
-      opacity: 0.9;
-      flex-direction: column;
-      &:target{
-        top: 0;
-      }
-    }
-    }
-  }
-}
-  section#Landing{
-    img{
-      display: none;
-    }
-  }
-  section#Rectangle{
-    .container{
-      flex-direction: column;
-  .ikkidanbir .flex {
-    gap: 1em;
-}
-      .ikkidanbir{
-        .text{
-
-          h2{
-            width: 350px;
+  footer {
+    .container {
+      gap: 0;
+      padding: 2em 1em;
+      .ikkidanbir {
+        ul {
+          p {
+            width: 100%;
+          }
+          .btn-1 {
+            padding: 0;
+            display: none;
           }
         }
       }
     }
   }
-section#Booknow{
-  .container{
+  footer#urta {
+    .container {
+      padding: 0 1em;
+      h2 {
+        font-size: 2em;
+        width: 300px;
+      }
+    }
+  }
+  footer#past {
+    .container {
+      padding: 1em;
+      gap: 0em;
+      .flex {
+        gap: 1em;
+      }
+    }
+  }
+}
+
+@media (max-width: 710px) {
+  .container {
+    width: 100%;
+  }
+  header {
+    .container {
+      gap: 15em;
+      .bars {
+        display: block;
+        a {
+          color: white;
+        }
+      }
+      .nav-main {
+        transition: all 0.6s;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        padding: 5em 0;
+        left: 0;
+        top: -100%;
+        background-color: black;
+        opacity: 0.9;
+        flex-direction: column;
+        &:target {
+          top: 0;
+        }
+      }
+    }
+  }
+}
+section#Landing {
+  img {
+    display: none;
+  }
+}
+section#Rectangle {
+  .container {
+    flex-direction: column;
+    .ikkidanbir .flex {
+      gap: 1em;
+    }
+    .ikkidanbir {
+      .text {
+        h2 {
+          width: 350px;
+        }
+      }
+    }
+  }
+}
+section#Booknow {
+  .container {
     flex-direction: column;
     .ikkidanbir p {
-    width: 380px;}
-    h2{
+      width: 380px;
+    }
+    h2 {
       width: 398px;
     }
   }
 }
-section#Rectangle2{
-  .container{
-    .ramka{
-    .ikkidanbir{
-      h2{
-        width: 300px;
-        font-size: 2em;
-      }
-      p {
-        font-size: 1em;
-        width: 298px;
+section#Rectangle2 {
+  .container {
+    .ramka {
+      .ikkidanbir {
+        h2 {
+          width: 300px;
+          font-size: 2em;
+        }
+        p {
+          font-size: 1em;
+          width: 298px;
+        }
       }
     }
   }
-  }
 }
 
-section#affilte{
-  .container{
-    h2{
+section#affilte {
+  .container {
+    h2 {
       font-size: 2em;
       width: 400px;
     }
   }
 }
-  footer{
-    display: none;
-  }
-
+footer {
+  display: none;
+}

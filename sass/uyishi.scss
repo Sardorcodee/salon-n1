@@ -1,0 +1,688 @@
+:root {
+  --oq: white;
+  --gold: #fbb034;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+  display: flex;
+}
+.biryarim {
+  width: 65%;
+}
+.ikkidanbir {
+  flex: 1;
+}
+.uchdanbir {
+  width: 33%;
+}
+.turtdanbir {
+  width: 25%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+image {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+header {
+  padding: 1.5em;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background-image: url(.././././../img/qorafon.png);
+  background-size: 100%;
+  .container {
+    font-family: "Poppins", sans-serif;
+    .nav-main {
+      color: var(--oq);
+      margin-left: auto;
+      gap: 4em;
+      font: {
+        weight: 700;
+        size: 14px;
+      }
+      text-transform: capitalize;
+      li:hover {
+        color: var(--gold);
+      }
+      li:nth-child(1) {
+        color: #fbb034;
+      }
+    }
+  }
+}
+.btn-1 {
+  background-color: var(--gold);
+  padding: 0.8em 4em;
+  border-radius: 3px;
+  border: 3px solid var(--gold);
+  color: black;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+
+  &:hover {
+    border: 3px solid var(--oq);
+    background-color: inherit;
+    color: var(--oq);
+  }
+}
+
+section#Landing {
+  background-image: url(.././././../img/qorafon.png);
+  background-size: 100%;
+  .container {
+    padding: {
+      bottom: 0;
+      right: 0;
+    }
+    .ikkidanbir {
+      align-items: center;
+
+      h4 {
+        color: var(--gold);
+        margin-top: 8em;
+        font: {
+          weight: 400;
+          size: 16px;
+        }
+      }
+      h1 {
+        font: {
+          weight: 700;
+          size: 48px;
+        }
+        color: var(--oq);
+        line-height: 48px;
+        margin: 0.5em 0em;
+        font-family: "Poppins", sans-serif;
+      }
+      p {
+        color: var(--oq);
+        font-family: "Poppins", sans-serif;
+        line-height: 25px;
+        width: 400px;
+        font: {
+          weight: 400;
+          size: 21px;
+        }
+      }
+      .flex {
+        margin: 6em 0;
+        gap: 4em;
+        font-size: 14px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        .btn-2 {
+          background-color: inherit;
+          padding: 0.8em 3em;
+          border-radius: 3px;
+          border: 3px solid var(--oq);
+          color: var(--oq);
+          &:hover {
+            background-color: var(--oq);
+            color: black;
+          }
+        }
+      }
+    }
+    .ikkidanbir {
+      img {
+        top: 0;
+      }
+    }
+  }
+}
+section#Rectangle {
+  background-image: url(.././././../img/aboutfon.png);
+  .container {
+    padding: 7em 12em;
+    .ikkidanbir .flex {
+      gap: 1.5em;
+      .img1 {
+        width: 220px;
+        height: 300px;
+      }
+      .column {
+        gap: 2.5em;
+
+        .img2 {
+          width: 160px;
+        }
+        .img3 {
+          border: 15px solid #fcfbfb;
+          margin-left: -4em;
+        }
+      }
+    }
+    .ikkidanbir {
+      width: 60%;
+      .btn-1 {
+        width: 70%;
+        &:hover {
+          border: 3px solid black;
+          color: black;
+        }
+      }
+    }
+  }
+}
+.text {
+  margin: 3em 10em;
+  gap: 1.5em;
+}
+h4 {
+  color: var(--gold);
+  font: {
+    weight: 400;
+    size: 18px;
+  }
+}
+h2 {
+  font: {
+    weight: 700;
+    size: 48px;
+  }
+  color: black;
+  line-height: 48px;
+  font-family: "Poppins", sans-serif;
+  width: 500px;
+}
+p {
+  color: #565656;
+  font-family: "Poppins", sans-serif;
+  line-height: 25px;
+  width: 550px;
+  margin-bottom: 2em;
+  font: {
+    weight: 400;
+    size: 21px;
+  }
+}
+section#Booknow {
+  background-image: url(.././././../img/Rectangle\ 7.png);
+  background-size: 100rem;
+  .container {
+    .text {
+      margin: 2em 0;
+      gap: 0.6em;
+      h2 {
+        width: 600px;
+        color: var(--oq);
+      }
+      p {
+        color: #e7e4e4;
+      }
+      .btn-1 {
+        width: 253px;
+        color: var(--oq);
+      }
+    }
+    .ikkidanbir {
+      .card {
+        width: 300px;
+        height: 300px;
+        background-color: var(--oq);
+
+        padding: 3em 6em;
+
+        .phoneimg {
+          width: 100px;
+          height: 100px;
+          background-color: #e8e8e8;
+          border-radius: 100%;
+          padding: 1em;
+          margin: 2em 0;
+        }
+        p {
+          margin: -1.2em 5px;
+          width: 100px;
+        }
+        h2 {
+          font-size: 20px;
+          margin: 15px -15px;
+        }
+      }
+    }
+  }
+}
+section#Rectangle2 {
+  .container {
+    padding: 5em 9em;
+
+    .ramka {
+      background: var(--gold);
+      width: 100%;
+      img {
+        height: 100%;
+      }
+      .ikkidanbir {
+        padding: 3em 3em;
+        width: 0%;
+
+        h2 {
+          color: var(--oq);
+          margin: 0px 8px;
+        }
+        p {
+          margin-top: 3px;
+          color: black;
+          width: 400px;
+        }
+        .column {
+          .flex {
+            gap: 3px;
+            .p1 {
+              font-weight: 700;
+              width: 20%;
+              font-size: 13px;
+              border-bottom: 1px dashed black;
+              color: var(--oq);
+            }
+            .p2 {
+              width: 17%;
+              color: red;
+              border-bottom: 1px dashed black;
+              font-size: 13px;
+            }
+          }
+        }
+        .btn-1 {
+          border: 2px solid;
+        }
+      }
+    }
+  }
+}
+
+//////////////////////////////
+section#affilte {
+  background-image: url(.././././../img/unsplash_NbtIDoFKGO8.png);
+  background-size: 100%;
+  .container {
+    text-align: center;
+    padding: 6em 0;
+    h2 {
+      margin: {
+        top: 0.5em;
+        bottom: 2.5em;
+        left: auto;
+        right: auto;
+      }
+      width: 800px;
+      color: var(--oq);
+    }
+    .btn-1 {
+      border: 3px solid var(--gold);
+      background-color: inherit;
+      color: #fbb034;
+      &:hover {
+        background-color: var(--gold);
+        color: var(--oq);
+      }
+    }
+  }
+}
+
+//// foter
+///
+footer {
+  background-color: black;
+  .container {
+    background-color: black;
+    padding: 3em 8em;
+
+    .ikkidanbir {
+      img {
+        padding: 0 5em;
+      }
+    }
+    ul {
+      p {
+        width: 100%;
+      }
+      .btn-1 {
+        border-radius: 6px;
+        margin: 0em 4em;
+        color: var(--oq);
+      }
+    }
+  }
+}
+footer#past {
+  background-color: black;
+  .container {
+    gap: 6em;
+    padding: 2em 13em;
+    .flex {
+      gap: 6em;
+      .p3 {
+        color: #565656;
+        font-size: 20px;
+      }
+    }
+    .cont .flex {
+      gap: 2em;
+      margin-left: 15em;
+      img {
+        &:hover {
+          opacity: 0.6;
+        }
+      }
+    }
+  }
+}
+
+footer#urta {
+  .container {
+    padding: 2em 13em;
+    color: var(--oq);
+    gap: 4em;
+    ul {
+      gap: 1.5em;
+      li:hover {
+        color: var(--gold);
+      }
+      li:nth-child(1) {
+        color: var(--gold);
+      }
+    }
+    .column {
+      gap: 2em;
+    }
+    h2 {
+      color: var(--oq);
+      font-weight: 400;
+    }
+    input {
+      padding: 1em 3em;
+      color: var(--oq);
+      background: black;
+      border-radius: 2px;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      border-bottom: 3px solid #565656;
+    }
+    button {
+      background-color: var(--gold);
+      padding: 0.3em 0.5em;
+      font-size: 30px;
+      color: var(--oq);
+      border-radius: 10px 10px 2px 2px;
+    }
+  }
+}
+
+/*Responsiv*/
+@media (max-width: 1410px) {
+  .container {
+    width: 1000px;
+    color: red;
+
+  }
+  header{
+    .bars{
+      display: none;
+    }
+  }
+}
+@media (max-width: 1010px) {
+  
+  .container {
+    width: 710px;
+    margin: 0;
+    padding: 1em;}
+  header {
+    .container{
+      .nav-main{
+        gap: 2em;
+      }
+      
+    }
+    }
+    
+  
+  section#Landing {
+    
+    .container{
+    .ikkidanbir {
+      h1{
+        font-size: 2em;
+        width: 300px;
+      }
+      p{
+        width: 350px;
+      }
+    }
+    .flex {
+      flex-direction: column;
+    }
+    .btn-1 , .btn-2{
+      width: 200px;
+
+    }
+    .ikkidanbir {
+      img{
+        width: 25em;
+        margin-top: 10em;
+
+      }
+    }
+  }
+  }
+  section#Rectangle {
+    .container {
+      padding: 4em 1em;
+      flex-direction: row;
+      gap: 1em;
+      .text {
+        margin: 0;
+        h2{
+          width: 300px;
+        }
+        p{
+          width: 300px;
+        }
+        .btn-1{
+          width: 200px;
+        
+        }
+      }
+    }
+  }
+  section#Booknow {
+    .container {
+      flex-direction: row;
+      gap: 2em;
+      .ikkidanbir{
+        h2{
+          width: 200px;
+          font-size: 2em;
+        }
+        p{
+          width: 400px;
+        }
+      }
+    }
+  }
+  section#Rectangle2 {
+    .container {
+      padding: 2em 1em;
+      margin:  0 auto;
+
+      .ramka {
+        img{
+          width: 100%;
+        }
+          width: 100%;
+        flex-direction: column;
+
+
+
+       .ikkidanbir{
+        width: 100%;
+       }
+      }
+    }
+  }
+section#affilte{
+  background-size: 100em;
+}
+footer{
+  .container{
+    gap: 0;
+padding:2em 1em;
+    .ikkidanbir{
+      ul{
+       p{
+        width: 100%;
+       }
+       .btn-1{
+        padding: 0;
+        display: none;
+       }
+
+        
+      }
+    }
+  }
+
+}
+footer#urta{
+  .container{
+    padding: 0 1em;
+    h2{
+      font-size: 2em;
+      width: 300px;
+    }
+  }
+
+}
+footer#past{
+     .container{
+      padding: 1em;
+      gap: 0em;
+      .flex{
+      gap: 1em;
+    }
+     }
+}
+
+
+}
+
+
+@media (max-width: 710px) {
+  .container {
+    width: 100%;
+  }
+  header{
+    .container{
+      gap: 15em;
+    .bars{
+      display: block;
+      a{
+        color: white;
+      }
+    }
+    .nav-main{
+      transition: all .6s;
+      text-align: center;
+      position: fixed;
+      width: 100%;
+      padding: 5em 0;
+      left: 0;
+      top: -100%;
+      background-color: black;
+      opacity: 0.9;
+      flex-direction: column;
+      &:target{
+        top: 0;
+      }
+    }
+    }
+  }
+}
+  section#Landing{
+    img{
+      display: none;
+    }
+  }
+  section#Rectangle{
+    .container{
+      flex-direction: column;
+  .ikkidanbir .flex {
+    gap: 1em;
+}
+      .ikkidanbir{
+        .text{
+
+          h2{
+            width: 350px;
+          }
+        }
+      }
+    }
+  }
+section#Booknow{
+  .container{
+    flex-direction: column;
+    .ikkidanbir p {
+    width: 380px;}
+    h2{
+      width: 398px;
+    }
+  }
+}
+section#Rectangle2{
+  .container{
+    .ramka{
+    .ikkidanbir{
+      h2{
+        width: 300px;
+        font-size: 2em;
+      }
+      p {
+        font-size: 1em;
+        width: 298px;
+      }
+    }
+  }
+  }
+}
+
+section#affilte{
+  .container{
+    h2{
+      font-size: 2em;
+      width: 400px;
+    }
+  }
+}
+  footer{
+    display: none;
+  }
+
